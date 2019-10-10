@@ -1,0 +1,19 @@
+{
+  "name": "nodeBlog",
+  "version": "1.0.0",
+  "description": "An example of a blog from the 90's that brought together a bunch of bamas from many places in the world",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bosonau/nodeBlog.git"
+  },
+  "author": "Boson Au",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bosonau/nodeBlog/issues"
+  },
+  "homepage": "https://github.com/bosonau/nodeBlog#readme"
+}
