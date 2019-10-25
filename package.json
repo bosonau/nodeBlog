@@ -1,10 +1,11 @@
 {
-  "name": "nodeBlog",
+  "name": "nodeblog",
   "version": "1.0.0",
   "description": "An example of a blog from the 90's that brought together a bunch of bamas from many places in the world",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,14 @@
   "bugs": {
     "url": "https://github.com/bosonau/nodeBlog/issues"
   },
-  "homepage": "https://github.com/bosonau/nodeBlog#readme"
+  "homepage": "https://github.com/bosonau/nodeBlog#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mysql": "^2.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  }
 }
