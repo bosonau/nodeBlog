@@ -2,7 +2,7 @@
 const dbConnection = require('./db.js');
 
 //post Obj
-const Post = function(post) {
+const Post = function(post) { 
 	this.ID 				= post.ID;
 	this.title 				= post.title;
 	this.createdOn			= post.createdOn;
